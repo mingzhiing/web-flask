@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>直肠癌智能诊断系统</title>
+    <meta name="keywords"
+          content="直肠，直肠癌，诊断，智能，系统，人工智能，辅助医疗"/>
+    <meta name="description"
+          content="告诉搜索引擎你的站点的主要内容"/>
+    <!-- 宽=设备的宽，初始缩放比例为：1，不允许用户缩放，允许用户缩放的最小比例为：1，允许用户缩放的最大比例为：1 -->
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0"/>
+    <!-- 禁止把数字转化为拨号连接 -->
+    <meta name="format-detection" content="telephone=no"/>
+    <!-- 以下代码告诉IE浏览器，IE8/9以及以后的版本都会以最高版本IE来渲染界面 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <!-- 以下是网络上的js库 -->
+    <script type="text/javascript" src="../static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../static/js/jquery-throttle-debounce.js"></script>
+    <script type="text/javascript" src="../static/js/swiper.min.js"></script>
+    <!-- 以下是主要的的js库 -->
+    <script type="text/javascript" src="../static/js/js.js"></script>
+    <!-- 这个jQuery代码段是为了实现一个具有动态互动效果的导航系统 -->
+    <script type="text/javascript" src="../static/js/js-2.js"></script>
+    <!-- 这个js删除之后，主页轮播图失效 -->
+    <script type="text/javascript" src="../static/js/tencent.js"></script>
+    <!-- 这个js控制图片大小与加载 -->
+    <script type="text/javascript" src="../static/js/imgsize.js"></script>
+    <!-- 这个css控制页头与页脚 -->
+    <link rel="stylesheet" type="text/css" href="../static/css/base.css"/>
+
+</head>
+
+
+<body>
+<div class="wrap">
+    <!-- 页头区域开始 -->
+    <div class="wrap_head ">
+        <div class="head_con">
+            <a class="logo" href="index.html"><h1 style="margin-top: 0">Tencent腾讯</h1>
+            </a>
+            <ul class="menu_list">
+                <li class="menu_item">
+                    <a class="txt" href="index.html">主页</a>
+                    <ul class="sub_list">
+                        <li><a href="https://www.tencent.com/zh-cn/about.html#about-con-1">公司简介</a></li>
+                        <li><a href="https://www.tencent.com/zh-cn/about.html#about-con-2">愿景及使命</a></li>
+                        <li><a href="https://www.tencent.com/zh-cn/about.html#about-con-3">发展历程</a></li>
+                        <li><a href="https://www.tencent.com/zh-cn/about.html#about-con-4">业务架构</a></li>
+                        <li><a href="https://www.tencent.com/zh-cn/about.html#about-con-5">管理团队</a></li>
+                        <li><a href="https://www.tencent.com/zh-cn/investors/board-members.html">董事会成员</a></li>
+                        <li><a href="https://www.tencent.com/zh-cn/about.html#about-con-6">企业文化</a></li>
+                        <li><a href="https://www.tencent.com/zh-cn/about.html#about-con-7">办公地点</a></li>
+                    </ul>
+                </li>
+                <li class="menu_item">
+                    <a class="txt" href="#">开始</a>
+                    <ul class="sub_list">
+                        <li><a href="https://www.tencent.com/zh-cn/business.html">面向用户</a></li>
+                        <li><a href="https://www.tencent.com/zh-cn/business.html?page-active=to-b">面向企业</a></li>
+                        <li><a href="https://www.tencent.com/zh-cn/business.html?page-active=innovation">创新科技</a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li class="menu_item">
+                    <a class="txt" href="home.html">平台</a>
+                    <ul class="sub_list">
+                        <li><a href="https://www.tencent.com/zh-cn/employees.html#staff-con-1">人才发展</a></li>
+                        <li><a href="https://www.tencent.com/zh-cn/employees.html#staff-con-2">腾讯学堂</a></li>
+                        <li><a href="https://www.tencent.com/zh-cn/employees.html#staff-con-3">工作环境</a></li>
+                        <li><a href="https://www.tencent.com/zh-cn/employees.html#staff-con-4">员工活动</a></li>
+                    </ul>
+                </li>
+                <li class="menu_item">
+                    <a class="txt" href="https://www.tencent.com/zh-cn/esg.html">ESG</a>
+                    <ul class="sub_list">
+                        <li><a href="https://www.tencent.com/zh-cn/esg.html#respon-con-1">环境</a></li>
+                        <li><a href="https://www.tencent.com/zh-cn/esg.html#respon-con-2">社会</a></li>
+                        <li><a href="https://www.tencent.com/zh-cn/esg.html#respon-con-3">治理</a></li>
+                        <li><a href="https://www.tencent.com/zh-cn/esg.html#respon-con-6">ESG评级</a></li>
+                        <li><a href="https://www.tencent.com/zh-cn/esg.html#respon-con-7">报告</a></li>
+                    </ul>
+                </li>
+                <li class="menu_item">
+                    <a class="txt" href="https://www.tencent.com/zh-cn/investors.html">投资者</a>
+                    <ul class="sub_list">
+                        <li>
+                            <a href="https://www.tencent.com/zh-cn/investors.html#investors-con-1">季度业绩及投资者新闻</a>
+                        </li>
+                        <li><a href="https://www.tencent.com/zh-cn/investors.html#investors-con-2">公告及财务报告</a>
+                        </li>
+                        <li>
+                            <a href="https://www.tencent.com/zh-cn/investors.html#investors-con-3">业绩电话会及投资者日历</a>
+                        </li>
+                        <li><a href="https://www.tencent.com/zh-cn/investors.html#investors-con-4">投资者工具包</a></li>
+                        <li><a href="https://www.tencent.com/zh-cn/investors.html#investors-con-5">证券及债券信息</a>
+                        </li>
+                        <li><a href="https://www.tencent.com/zh-cn/investors.html#investors-con-6">环境、社会及管治</a>
+                        </li>
+                        <li><a href="https://www.tencent.com/zh-cn/investors.html#investors-con-7">股东资讯</a></li>
+                    </ul>
+                </li>
+                <li class="menu_item">
+                    <a class="txt" href="https://www.tencent.com/zh-cn/media.html">媒体</a>
+                    <ul class="sub_list">
+                        <li><a href="https://www.tencent.com/zh-cn/media/news.html?type=media">企业动态</a></li>
+                        <li><a href="https://www.tencent.com/zh-cn/media/news.html?type=financial">财务新闻</a></li>
+                        <li><a href="https://www.tencent.com/zh-cn/media/perspective.html">腾讯视角</a></li>
+                        <li><a href="https://www.tencent.com/zh-cn/media/library.html">媒体资料库</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!-- 下面的div控制菜单栏纯色背景块 -->
+        <div class="icon_menu">
+            <a class="i_menu"></a>
+            <a class="i_close"></a>
+        </div>
+        <div class="bg_hover"></div>
+    </div>
+    <!-- 页头区域结束 -->
+
+
+    <!-- 以下为内容css -->
+    <link href="../static/css/swiper.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../static/css/enhancement-base.css" rel="stylesheet" type="text/css"/>
+    <link href="../static/css/home-new.css" rel="stylesheet" type="text/css"/>
+
+    <div class="ten_root">
+
+        <!--Section1-->
+        <section>
+            <div class="ten_main">
+                <div class="ten_links">
+                    <a href="#" class="ten_img">
+                        <img src="../static/img/index/brief-1-1-7.jpg" alt="About Us"/>
+                        <div class="ten_img_txt">
+                            <h2>标题1</h2>
+                        </div>
+                    </a>
+                    <a href="#" class="ten_img">
+                        <img src="../static/img/index/brief-1-1-7.jpg" alt="Our Culture"/>
+                        <div class="ten_img_txt">
+                            <h2>标题2</h2>
+                        </div>
+                    </a>
+                    <a href="例子.html" class="ten_img">
+                        <img src="../static/img/home/demo1-3.png" alt="daim3" style="filter: brightness(0.7);"/>
+                        <div class="ten_img_txt">
+                            <h2>智慧检测</h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!--Section1-->
+
+        <!--Section2-->
+        <div class="ten_bg--dark">
+            <div class="ten_main">
+                <div class="ten_home">
+                    <div class="ten_home_l">
+                        <a href="#.html" class="active" data-target="home1">
+                            <h2>标题一</h2>
+                            <p>介绍一</p>
+                        </a>
+                        <a href="#.html?" data-target="home2">
+                            <h2>标题二</h2>
+                            <p>介绍二</p>
+                        </a>
+                        <a href="#.html" data-target="home3">
+                            <h2>标题三</h2>
+                            <p>介绍三</p>
+                        </a>
+                    </div>
+                    <div class="ten_home_r">
+                        <div class="ten_home_card active " id="home1">
+                            <div class="ten_img ten_img ten_img--5x4">
+                                <img src="../static/img/home/brief-1-1-5.jpg" alt="Tencent"/>
+                                <div class="ten_img_shadow ten_img_shadow--vert"></div>
+                                <div class="ten_img_txt ten_img_txt--bottom">
+                                    <a href="https://www.tencent.com/zh-cn/business.html#business-con-1">
+                                        <h3>通信与社交</h3>
+                                        <p>连接人与人，提供功能丰富的即时通信和社交平台，让沟通更便捷。</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="ten_img ten_img ten_img--5x4">
+                                <img src="../static/img/home/brief-1-1-5.jpg" alt="Tencent"/>
+                                <div class="ten_img_shadow ten_img_shadow--vert"></div>
+                                <div class="ten_img_txt ten_img_txt--bottom">
+                                    <a href="https://www.tencent.com/zh-cn/business.html#business-con-2">
+                                        <h3>数字内容</h3>
+                                        <p>基于优质内容，以技术为驱动引擎，探索社交和内容融合的下一代形态。</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="ten_img ten_img ten_img--5x4">
+                                <img src="../static/img/home/brief-1-1-5.jpg" alt="Tencent"/>
+                                <div class="ten_img_shadow ten_img_shadow--vert"></div>
+                                <div class="ten_img_txt ten_img_txt--bottom">
+                                    <a href="https://www.tencent.com/zh-cn/business.html#business-con-3">
+                                        <h3>金融科技服务</h3>
+                                        <p>连接用户、商户和金融机构，提供安全、专业、便捷的金融产品与服务。</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="ten_img ten_img ten_img--5x4">
+                                <img src="../static/img/home/brief-1-1-5.jpg" alt="Tencent"/>
+                                <div class="ten_img_shadow ten_img_shadow--vert"></div>
+                                <div class="ten_img_txt ten_img_txt--bottom">
+                                    <a href="https://www.tencent.com/zh-cn/business.html#business-con-4">
+                                        <h3>工具</h3>
+                                        <p>提供多种工具性软件，帮助用户快速直接解决各项具体需求。</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ten_home_card " id="home2">
+                            <div class="ten_img ten_img ten_img--5x4">
+                                <img src="../static/img/home/brief-1-1-6.jpg" alt="Tencent"/>
+                                <div class="ten_img_shadow ten_img_shadow--vert"></div>
+                                <div class="ten_img_txt ten_img_txt--bottom">
+                                    <a href="https://www.tencent.com/zh-cn/business.html?page-active=to-b#business-con-5">
+                                        <h3>腾讯广告营销</h3>
+                                        <p>大数据营销平台，汇聚腾讯全量应用场景，提供一体化数字化营销方案。</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="ten_img ten_img ten_img--5x4">
+                                <img src="../static/img/home/brief-1-1-6.jpg" alt="Tencent"/>
+                                <div class="ten_img_shadow ten_img_shadow--vert"></div>
+                                <div class="ten_img_txt ten_img_txt--bottom">
+                                    <a href="https://www.tencent.com/zh-cn/business.html?page-active=to-b#business-con-6">
+                                        <h3>腾讯云</h3>
+                                        <p>提供领先的云产品与云服务，辅助企业走向数字化和全球化。</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="ten_img ten_img ten_img--5x2">
+                                <img src="../static/img/home/brief-1-1-6.jpg" alt="Tencent"/>
+                                <div class="ten_img_shadow ten_img_shadow--vert"></div>
+                                <div class="ten_img_txt ten_img_txt--bottom">
+                                    <a href="https://www.tencent.com/zh-cn/business.html?page-active=to-b#business-con-7">
+                                        <h3>智慧产业</h3>
+                                        <p>通过云、AI、大数据分析、安全、支付、小程序、LBS等互联网前沿技术和产品，<br>打造智慧产业方案，助力产业数字化升级。
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ten_home_card " id="home3">
+                            <div class="ten_img ten_img ten_img--5x4">
+                                <img src="../static/img/home/brief-1-1-7.jpg" alt="Tencent"/>
+                                <div class="ten_img_shadow ten_img_shadow--vert"></div>
+                                <div class="ten_img_txt ten_img_txt--bottom">
+                                    <a href="https://www.tencent.com/zh-cn/business.html?page-active=innovation#business-con-8">
+                                        <h3>人工智能</h3>
+                                        <p>运用多种技术资产，提升人工智能实力，惠及人类和世界。</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="ten_img ten_img ten_img--5x4">
+                                <img src="../static/img/home/brief-1-1-7.jpg" alt="Tencent"/>
+                                <div class="ten_img_shadow ten_img_shadow--vert"></div>
+                                <div class="ten_img_txt ten_img_txt--bottom">
+                                    <a href="https://www.tencent.com/zh-cn/business.html?page-active=innovation#business-con-9">
+                                        <h3>物联网</h3>
+                                        <p>通过腾讯云物联网，致力提供IoT全栈产品和解决方案。</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="ten_img ten_img ten_img--5x4">
+                                <img src="../static/img/home/brief-1-1-7.jpg" alt="Tencent"/>
+                                <div class="ten_img_shadow ten_img_shadow--vert"></div>
+                                <div class="ten_img_txt ten_img_txt--bottom">
+                                    <a href="https://www.tencent.com/zh-cn/business.html?page-active=innovation#business-con-9">
+                                        <h3>多媒体</h3>
+                                        <p>腾讯多媒体实验室专注音视频通信技术的前瞻性研究。</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="ten_img ten_img ten_img--5x4">
+                                <img src="../static/img/home/brief-1-1-7.jpg" alt="Tencent"/>
+                                <div class="ten_img_shadow ten_img_shadow--vert"></div>
+                                <div class="ten_img_txt ten_img_txt--bottom">
+                                    <a href="https://www.tencent.com/zh-cn/business.html?page-active=innovation#business-con-10">
+                                        <h3>腾讯探索</h3>
+                                        <p>携手合作伙伴探索未来和相关技术，帮助解决全球在食物、能源和水源方面的挑战。</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- HTML Content End -->
+
+    <!-- 这段JavaScript代码（配合jQuery使用）主要用来实现在页面滚动时改变页面头部（.wrap_head类所指元素）的样式 -->
+    <script>
+        if ($(document).scrollTop() >= $('.wrap_head').height()) {
+            $('.wrap_head').addClass('head_white');
+        } else {
+            $('.wrap_head').removeClass('head_white');
+        }
+        $(window).scroll(function (event) {
+            if ($(document).scrollTop() >= $('.wrap_head').height()) {
+                $('.wrap_head').addClass('head_white');
+            } else {
+                $('.wrap_head').removeClass('head_white');
+            }
+        })
+    </script>
+
+
+    <!-- 页脚区域 -->
+    <div class="wrap_footer">
+        <div class="footer_con">
+            <div class="footer_area">
+                <ul class="links">
+                    <li>
+                        <a target="_blank" href="https://www.tencent.com/zh-cn/statement.html">法律声明</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.tencent.com/zh-cn/integrity-policy.html">阳光准则</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.tencent.com/zh-cn/sitemap.html">网站地图</a>
+                    </li>
+                    <li class="num">
+                        <a href="http://beian.miit.gov.cn/">粤网文【2017】6138-1456号</a>
+                    </li>
+                    <li class="num">
+                        <a href="http://beian.miit.gov.cn/">粤B2-20090059</a>
+                    </li>
+                    <li class="num">
+                        <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030502008569">粤公网安备
+                            44030502008569号</a>
+                    </li>
+                </ul>
+                <p class="copyright"><a href="http://beian.miit.gov.cn/" class="flag_num">粤网文【2017】6138-1456号<span>粤B2-20090059</span></a><a
+                        class="flag_num"
+                        href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030502008569">粤公网安备
+                    44030502008569号</a>Copyright © 1998 - 2024 Tencent. All Rights Reserved. <br class="flag_m"/>腾讯公司
+                    版权所有</p>
+
+            </div>
+
+
+            <a class="ten_totop ten_totop--float back_to_top"></a>
+        </div>
+    </div>
+    <!-- 页脚区域 -->
+    <link rel="stylesheet" type="text/css" href="../static/css/rem.css"/>
+    <link rel="stylesheet" type="text/css" href="../static/css/rem-2.css"/>
+</div>
+</body>
+</html>
+

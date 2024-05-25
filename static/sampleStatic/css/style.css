@@ -1,0 +1,103 @@
+html{
+    background: radial-gradient(#86A8E7, #91EAE4)
+}
+body {
+    background-repeat: repeat;
+    background-size: 100% 200%;
+    /* line-height:10px;*/
+}
+
+.word1 {
+    font-weight: 900;
+    font-family: fantasy;
+    font-size: 30px;
+    color: #105cb6;
+}
+
+.word2 {
+    font-family: '宋体', serif;
+    font-size: 20px;
+    color: #105cb6;
+}
+
+.word3 {
+    font-family: '宋体', serif;
+    font-size: 15px;
+    color: #0e121c;
+    font-weight: bolder;
+}
+
+.css1 {
+    border: 2px solid #b3d4fc;
+    -webkit-box-shadow: #b3d4fc 0 0 25px;
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+    -webkit-transition-duration: 2s;
+}
+
+/* This was made with GlassGenerator.netlify.app */
+.glass-container {
+    width: 50%;
+    min-height: 800px;
+    color: white;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+    background-color: rgba(0, 191, 255, 0.076);
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+    border: 0 rgba(255, 255, 255, 0.4) solid;
+    border-bottom: 2px rgba(40, 40, 40, 0.35) solid;
+    border-right: 2px rgba(40, 40, 40, 0.35) solid;
+}
+
+#background {
+    position: fixed;
+    margin-left: -0.5%;
+}
+
+#lizi {
+    height: 100%;
+    width: 100%;
+    z-index: 999;
+}
+
+#btnChoose {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+    cursor: pointer;
+}
+
+#btnChoose1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+    cursor: pointer;
+}
+
+#a {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+    cursor: pointer;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+#tempVale {
+    font-family: '宋体', serif;
+    font-size: 20px;
+    color: #105cb6;
+}
+
+#tempImg1 {
+    width: 100%;
+    object-fit: contain;
+    display: block;
+    color: #008CBA;
+}
