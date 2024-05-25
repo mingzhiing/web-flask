@@ -1,70 +1,47 @@
-<!-- Home Page Content End -->
-
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Tencent 腾讯</title>
+    <title>直肠癌智能诊断系统</title>
     <meta name="keywords"
-          content="腾讯，腾讯集团，腾讯官网，微信，QQ，腾讯游戏，腾讯云，Tencent, Tencent Games, WeChat, Tencent Cloud"/>
+          content="直肠，直肠癌，诊断，智能，系统，人工智能，辅助医疗"/>
     <meta name="description"
-          content="腾讯于1998年11月成立，是一家互联网公司，通过技术丰富互联网用户的生活，助力企业数字化升级。我们的使命是“用户为本 科技向善”。Founded in 1998, Tencent is an Internet-based platform company using technology to enrich the lives of Internet users and assist the digital upgrade of enterprises. Our mission is &quot;Value for Users, Tech for Good&quot;."/>
+          content="告诉搜索引擎你的站点的主要内容"/>
+    <!-- 宽=设备的宽，初始缩放比例为：1，不允许用户缩放，允许用户缩放的最小比例为：1，允许用户缩放的最大比例为：1 -->
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0"/>
+    <!-- 禁止把数字转化为拨号连接 -->
     <meta name="format-detection" content="telephone=no"/>
+    <!-- 以下代码告诉IE浏览器，IE8/9以及以后的版本都会以最高版本IE来渲染界面 -->
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-
-    <script>
-        window.windowLoadList = [];
-        window.windowLoad = function (call) {
-            windowLoadList.push(call);
-        }
-
-        var _locale = 'zh-cn';
-    </script>
-    <script src="https://js.aq.qq.com/js/aq_common.js"></script>
+    <!-- 以下是网络上的js库 -->
     <script type="text/javascript" src="../js/jquery.min.js"></script>
-    <script type="text/javascript" src="../js/js.js"></script>
-    <script type="text/javascript" src="../js/js-2.js"></script>
-    <script type="text/javascript" src="../js/swiper.min.js"></script>
-    <script type="text/javascript" src="../js/qrcode.js"></script>
-    <script type="text/javascript" src="../js/tencent.js"></script>
-    <script type="text/javascript" src="../js/imgsize.js"></script>
-    <script type="text/javascript" src="../js/yearpicker.js"></script>
     <script type="text/javascript" src="../js/jquery-throttle-debounce.js"></script>
-
-    <script src="https://cdn-go.cn/aegis/aegis-sdk/latest/aegis.min.js"></script>
-    <script>
-        const aegis = new Aegis({
-            id: 'okypvhbvZrwvRnEg8o', // 上报 id
-            uin: 'xxx', // 用户唯一 ID（可选）
-            reportApiSpeed: true, // 接口测速
-            reportAssetSpeed: true, // 静态资源测速
-            spa: true, // spa 应用页面跳转的时候开启 pv 计算
-        });
-    </script>
+    <script type="text/javascript" src="../js/swiper.min.js"></script>
+    <!-- 以下是主要的的js库 -->
+    <script type="text/javascript" src="../js/js.js"></script>
+    <!-- 这个jQuery代码段是为了实现一个具有动态互动效果的导航系统 -->
+    <script type="text/javascript" src="../js/js-2.js"></script>
+    <!-- 这个js删除之后，主页轮播图失效 -->
+    <script type="text/javascript" src="../js/tencent.js"></script>
+    <!-- 这个js控制图片大小与加载 -->
+    <script type="text/javascript" src="../js/imgsize.js"></script>
+    <!-- 这个css控制页头与页脚 -->
     <link rel="stylesheet" type="text/css" href="../css/base.css"/>
-    <link rel="stylesheet" type="text/css" href="../css/base-2.css"/>
-    <link rel="stylesheet" type="text/css" href="../css/index.css"/>
-    <link rel="stylesheet" type="text/css" href="../css/ten-search.css"/>
-
-    <link rel="stylesheet" href="../css/yearpicker.css" type="text/css">
 
 </head>
+
+
 <body>
-
 <div class="wrap">
-    <!-- 页头区域 -->
+    <!-- 页头区域开始 -->
     <div class="wrap_head ">
-        <!-- 点击搜索icon 添加类名 search_area_show 隐藏菜单，显示输入框 -->
-        <!-- 添加类名 submenu_show 显示子菜单 -->
-
         <div class="head_con">
-            <a class="logo" href="https://www.tencent.com/zh-cn/index.html"><h1 style="margin-top: 0">Tencent腾讯</h1>
+            <a class="logo" href="index.html"><h1 style="margin-top: 0">Tencent腾讯</h1>
             </a>
             <ul class="menu_list">
                 <li class="menu_item">
-                    <a class="txt" href="https://www.tencent.com/zh-cn/about.html">简介</a>
+                    <a class="txt" href="home.html">开始</a>
                     <ul class="sub_list">
                         <li><a href="https://www.tencent.com/zh-cn/about.html#about-con-1">公司简介</a></li>
                         <li><a href="https://www.tencent.com/zh-cn/about.html#about-con-2">愿景及使命</a></li>
@@ -77,7 +54,7 @@
                     </ul>
                 </li>
                 <li class="menu_item">
-                    <a class="txt" href="https://www.tencent.com/zh-cn/business.html">业务</a>
+                    <a class="txt" href="home.html">平台</a>
                     <ul class="sub_list">
                         <li><a href="https://www.tencent.com/zh-cn/business.html">面向用户</a></li>
                         <li><a href="https://www.tencent.com/zh-cn/business.html?page-active=to-b">面向企业</a></li>
@@ -133,42 +110,27 @@
                         <li><a href="https://www.tencent.com/zh-cn/media/library.html">媒体资料库</a></li>
                     </ul>
                 </li>
-
-                <li class="menu_item menu_item_lan">
-                    <a class="cn" lang="zh-cn">简体</a> <i class="s_line">|</i> <a class="hk" lang="zh-hk">繁体</a> <i
-                        class="s_line">|</i> <a class="en" lang="en-us">English</a></li>
-
             </ul>
-            <!--<div class="search_area">
-              <a href="##" class="search_icon"></a>
-              <input type="text" class="ipt_search" value="" placeholder="请输入您想搜索的关键字" />
-            </div>-->
-            <div class="lang_area">
-                <a class="lang_ch current" lang="zh-cn">简</a> <i class="s_line">|</i> <a class="lang_hk"
-                                                                                          lang="zh-hk">繁</a> <i
-                    class="s_line">|</i> <a class="lang_en" lang="en-us">EN</a></div>
         </div>
+        <!-- 下面的div控制菜单栏纯色背景块 -->
         <div class="icon_menu">
             <a class="i_menu"></a>
             <a class="i_close"></a>
         </div>
         <div class="bg_hover"></div>
     </div>
-    <!-- 页头区域 -->
+    <!-- 页头区域结束 -->
 
 
-    <!-- Home Page Content Start -->
-
-
-    <!-- CSS Content Start -->
+    <!-- 以下为内容css -->
     <link href="../css/swiper.min.css" rel="stylesheet" type="text/css"/>
     <link href="../css/enhancement-base.css" rel="stylesheet" type="text/css"/>
     <link href="../css/home-new.css" rel="stylesheet" type="text/css"/>
-    <!-- CSS Content End -->
-    <!-- HTML Content Start -->
+
     <div class="ten_root">
         <div class="ten_header_pad"></div>
         <div class="whats-new-container">
+            <!-- 轮播图开始 -->
             <section class="ten_banner">
                 <div class="ten_banner_swiper swiper-container" data-breakpoint="0:1" data-spacing="0"
                      data-autoplay="8000"
@@ -177,37 +139,37 @@
                     <div class="ten_banner_wrapper swiper-wrapper">
                         <div class="ten_banner_slide swiper-slide" style="cursor: pointer">
                             <a href="https://www.tencent.com/zh-cn/investors.html#investors-con-1" target="_blank">
-                                <img src="../img/banners/brief-1-1.jpg" alt="Financial Release"/>
+                                <img src="../img/index/brief-1-1-1.jpg" alt="Financial Release"/>
                                 <div class="ten_banner_shadow ten_banner_shadow--20"></div>
                                 <div class="ten_banner_text">
                                     <div class="ten_main">
-                                        <h2>腾讯公布二零二四年第一季业绩</h2>
+                                        <h2>致力于直肠癌诊断高效化</h2>
+                                        <h5>这是一段话，还没找好。</h5>
                                     </div>
                                 </div>
                             </a>
                         </div>
                         <div class="ten_banner_slide swiper-slide" style="cursor: pointer">
                             <a href="https://www.tencent.com/zh-cn/media/weixin-pay.html" target="_blank">
-                                <img src="https://static.www.tencent.com/img/weixin/banner.jpg" alt="weixin"/>
+                                <img src="../img/index/brief-1-1-2.jpg" alt="weixin"/>
                                 <div class="ten_banner_shadow ten_banner_shadow--10"></div>
                                 <div class="ten_banner_text">
                                     <div class="ten_main">
-                                        <h2>有朋自远方来，欢迎使用微信支付!</h2>
-                                        <h5>
-                                            腾讯正全面提升外籍人士在华支付体验，以促进国际旅游进一步蓬勃发展和国际人文交流。</h5>
+                                        <h2>有朋自远方来，大标题2!</h2>
+                                        <h5>这是第二段话，还没找好。</h5>
                                     </div>
                                 </div>
                             </a>
                         </div>
                         <div class="ten_banner_slide swiper-slide" style="cursor: pointer">
                             <a href="https://www.tencent.com/zh-cn/articles/2201796.html" target="_blank">
-                                <img src="https://static.www.tencent.com/img/banner/%E5%85%A8%E7%90%83%E6%95%B0%E5%AD%97%E6%A6%82%E5%BF%B5.jpg"
+                                <img src="../img/index/brief-1-1-3.jpg"
                                      alt="tanlive"/>
                                 <div class="ten_banner_shadow ten_banner_shadow--10"></div>
                                 <div class="ten_banner_text">
                                     <div class="ten_main">
-                                        <h2>三步打造世界级数字经济中心</h2>
-                                        <h5>多元化、数字化产业是驱动经济增长的重要引擎。</h5>
+                                        <h2>大标题3</h2>
+                                        <h5>这是第三段话，还没找好。</h5>
                                     </div>
                                 </div>
                             </a>
@@ -215,18 +177,19 @@
                         <div class="ten_banner_slide swiper-slide" style="cursor: pointer">
                             <a href="https://www.tencent.com/zh-cn/articles/2201789.html" target="_blank">
                                 <img class="banner-img"
-                                     src="https://static.www.tencent.com/uploads/2024/02/23/b4711f7d1a375154252bb52c6b945794.jpg"
+                                     src="../img/index/brief-1-1-4.jpg"
                                      alt="ai"/>
                                 <div class="ten_banner_shadow ten_banner_shadow--10"></div>
                                 <div class="ten_banner_text">
                                     <div class="ten_main">
-                                        <h2>2024年十大科技和应用趋势</h2>
-                                        <h5>腾讯研究院邀请科学家、工程师、学者和其他专家对2024年科技发展趋势作出预测。</h5>
+                                        <h2>大标题4</h2>
+                                        <h5>这是第四段话，还没找好。</h5>
                                     </div>
                                 </div>
                             </a>
                         </div>
                     </div>
+                    <!-- 下面的div是轮播图右下角的控制点 -->
                     <div class="ten_banner_nav">
                         <div class="ten_main">
                             <div class="ten_banner_arr">
@@ -238,6 +201,8 @@
                     </div>
                 </div>
             </section>
+            <!-- 轮播图结束 -->
+            <!-- 七个动态开始 -->
             <section class="ten_cards">
                 <div class="ten_main">
                     <h4>最新动态</h4>
@@ -380,6 +345,7 @@
                     </div>
                 </div>
             </section>
+            <!-- 七个动态结束 -->
         </div>
 
 
@@ -859,54 +825,6 @@
         </div>
     </div>
     <!-- 页脚区域 -->
-    <div class="cookie-pop">
-        <div class="pop active">
-            <div class="title">您的Cookies偏好</div>
-            <div class="btn close-btn"></div>
-            <div class="content">
-                <p class="label">欢迎来到Tencent.com！</p>
-                <p class="desc">我们希望使用分析型Cookies和类似技术 (“Cookies”) 来改善我们的网站。
-                    Cookies收集的信息不会识别您个人。有关我们使用的Cookies的类型以及您的偏好选项（包括如何更改您的偏好设置）的更多信息，请查看此处的<a
-                            href="https://www.tencent.com/zh-cn/cookies-policy.html">Cookies政策</a>。</p>
-            </div>
-            <div class="btn-box">
-                <div class="btn accept-btn">接受所有分析型Cookies</div>
-                <div class="btn refuse-btn">拒绝所有分析型Cookies</div>
-            </div>
-        </div>
-        <div class="pop">
-            <div class="title">您的Cookies偏好</div>
-            <div class="btn close-btn"></div>
-            <div class="content">
-                <p class="label">歡迎來到Tencent.com！</p>
-                <p class="desc">我們希望使用分析型Cookies和類似技術 (“Cookies”) 來改善我們的網站。
-                    Cookies收集的信息不會識別您個人。有關我們使用的Cookies的類型以及您的偏好選項（包括如何更改您的偏好設置）的更多信息，請查看此處的<a
-                            href="https://www.tencent.com/zh-cn/cookies-policy.html">Cookies政策</a>。</p>
-            </div>
-            <div class="btn-box">
-                <div class="btn accept-btn">接受所有分析型Cookies</div>
-                <div class="btn refuse-btn">拒絕所有分析型Cookies</div>
-            </div>
-        </div>
-        <div class="pop">
-            <div class="title">YOUR COOKIE PREFERENCES</div>
-            <div class="btn close-btn"></div>
-            <div class="content">
-                <p class="label">Welcome to Tencent.com!</p>
-                <p class="desc">We would like to use analytics cookies and other similar tracking technologies
-                    (“Cookies”) to
-                    help us improve our website. The Cookies collect information in a way that does not directly
-                    identify anyone.
-                    For more information about the Cookies we use and your options (including how to change your
-                    preferences), see
-                    our cookies policy<a href="https://www.tencent.com/zh-cn/cookies-policy.html"> here</a>.</p>
-            </div>
-            <div class="btn-box">
-                <div class="btn accept-btn">Accept all analytics cookies</div>
-                <div class="btn refuse-btn">Reject all analytics cookies</div>
-            </div>
-        </div>
-    </div>
     <link rel="stylesheet" type="text/css" href="../css/rem.css"/>
     <link rel="stylesheet" type="text/css" href="../css/rem-2.css"/>
     <script>
@@ -1089,21 +1007,6 @@
         $('.lang_area a').removeClass('current');
         $('.wrap').addClass(_language.split('/')[0]);
         $('.lang_area a[lang="' + _language.split('/')[0] + '"]').addClass('current');
-
-        /* 中文/繁体/英文路由状态控制 */
-        var host = window.location.host;
-        var url = window.location.href;
-        $('.lang_area a,.menu_list .menu_item.menu_item_lan a,.lang-ul li a').on('click', function () {
-            var targetLocale = $(this).attr('lang');
-
-            if ($(this).attr('lang') != _language.split('/')[0]) {
-                localStorage.setItem("browserSign", targetLocale + '/');
-                window.location.pathname = window.location.pathname.replace(/^\/(zh\-(cn|hk)|en\-us)?/, '/' + targetLocale);
-            }
-        })
-
-        $('.cookie-pop .pop').removeClass('active');
-        $('.cookie-pop .pop').eq(pop_ind).addClass('active');
     </script>
 </div>
 </body>
